@@ -25,7 +25,7 @@ function App() {
       <div className="flex justify-center items-center h-dvh">
         
     
-             <div className="flex justify-center w-fit p-4 min-h-[300px]  items-center  gap-3 flex-col border border-solid border-black">
+             <div className="flex justify-center w-fit p-4 min-h-[300px]  items-center  gap-3 flex-col rounded-2xl border border-solid border-black">
             <div className="flex gap-3">
                 <input value={todoData} className="border border-black text-3xl rounded-r-xl rounded-l-xl"  onChange={(e) =>  setTodoData(e.target.value)} type="text" />
             <button className="border border-black text-2xl p-2 bg-slate-500 text-white rounded-xl" onClick={handleAdd}>Add</button>
